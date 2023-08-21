@@ -11,6 +11,10 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        base: "25px", // Adjust this value to whatever you want the base font size to be.
+        // ... other sizes
+      },
     },
   },
   plugins: [],

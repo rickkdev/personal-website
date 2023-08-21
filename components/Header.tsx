@@ -1,8 +1,15 @@
-import Link from 'next/link'
+import Link from "next/link";
+import Image from "next/image";
 
 function Icon() {
   return (
-    <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="22"
+      height="24"
+      viewBox="0 0 22 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -12,24 +19,39 @@ function Icon() {
         strokeWidth="0.5"
       ></path>
     </svg>
-  )
+  );
 }
 
-function Logo() {
+function Content() {
   return (
-    <Link href="/" className="inline-flex justify-center items-center">
-      <span className="mr-2">
-        <Icon />
-      </span>
-      <span className="font-bold">Contentlayer</span>
-    </Link>
-  )
+    <div className="flex px-4 flex-row items-center justify-between">
+      <div>
+        <Link href="/" target="_blank" rel="noopener noreferrer">
+          <div className="font-bold">rickk</div>
+        </Link>
+      </div>
+      <div className="">
+        <Link
+          href="https://twitter.com/rickkdev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="flex flex-row items-center space-x-2">
+            <div>
+              <Image src="/x-logo.png" width={12} height={12} alt="X" />
+            </div>
+            <div className="text-xs font-semibold">follow me</div>
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 export function Header() {
   return (
-    <header className="p-8 flex justify-center">
-      <Logo />
+    <header className="">
+      <Content />
     </header>
-  )
+  );
 }
