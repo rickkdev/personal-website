@@ -69,7 +69,7 @@ export default function Home() {
       my first company, cwc, analyzed crypto exchanges and was later sold. free
       time led me to various hackathons, where i met my co-founder. together, we
       founded openq, partnering with top hackathon organizers and distributing
-      the largest decentralized crypto prize pool in hackathon history.
+      the largest prize pool in hackathon history.
       {/* {posts.map((post, idx) => (
         <PostCard key={idx} {...post} />
       ))} */}
