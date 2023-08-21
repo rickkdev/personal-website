@@ -10,8 +10,8 @@ export default function RootLayout({
   return (
     <html>
       <head>
-        <title className="">rickk</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+        <title>rickk</title>
+        <link rel="icon" type="image/x-icon" href="/favicon-r.png" />
       </head>
       <body className="bg-[#fcfcfc]">
         <div className="max-w-xl py-8 mx-auto ">

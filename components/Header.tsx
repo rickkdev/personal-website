@@ -36,7 +36,7 @@ function Content() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="flex flex-row items-center space-x-2">
+          <div className="flex flex-row items-center space-x-2 underline">
             <div>
               <Image src="/x-logo.png" width={12} height={12} alt="X" />
             </div>
