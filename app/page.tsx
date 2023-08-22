@@ -33,7 +33,7 @@ export default function Home() {
   );
 
   return (
-    <div className="pt-4 px-5">
+    <div className="pt-4 px-4">
       <div className="text-lg font-bold pb-1">about</div>
       <div className="flex md:flex-row flex-col">
         <img
@@ -102,14 +102,24 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <Link
-          href="https://github.com/rickkdev/personal-website"
-          className="underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          source
-        </Link>
+        <div className="flex flex-row space-x-4">
+          <Link
+            href="https://github.com/rickkdev/personal-website"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            source
+          </Link>
+          <Link
+            href="mailto:riccardo@openq.dev"
+            className="underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            contact
+          </Link>
+        </div>
       </div>
     </div>
   );

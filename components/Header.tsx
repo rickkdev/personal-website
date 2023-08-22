@@ -27,7 +27,7 @@ function Content() {
     <div className="flex px-4 flex-row items-center justify-between">
       <div>
         <Link href="/" target="_blank" rel="noopener noreferrer">
-          <div className="font-bold">rickk</div>
+          <div className="font-bold underline text-[#0000ff]">rickk</div>
         </Link>
       </div>
       <div className="">
