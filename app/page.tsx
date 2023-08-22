@@ -43,8 +43,12 @@ export default function Home() {
           className="flex-shrink-0 mb-4 md:mb-0 md:mr-4 md:hidden pt-5"
         />
         <div>
-          i'm a software engineer and head of execution of openq. I'm originally
-          from a small town in southwest germany known as offenburg. <br />
+          i'm a software engineer and head of execution of{" "}
+          <Link className="underline" href={"https://openq.dev/"}>
+            openq.
+          </Link>{" "}
+          I'm originally from a small town in southwest germany known as
+          offenburg. <br />
           <br />
           my tryst with coding began thanks to the vastness of the web and
           friends who nudged me to experiment with ideas i had.
@@ -58,7 +62,7 @@ export default function Home() {
         />
       </div>
       <br />
-      by 15, i freelanced in web design and 3d animation. working for a 3d
+      by 15, i freelanced in web development and 3d animation. working for a 3d
       studio full-time for a year shifted my focus from animation to coding
       again. <br />
       <br />i studied cs at the technical university of berlin, though much of
@@ -66,10 +70,21 @@ export default function Home() {
       and web3, professionally focusing on blockchain for the last 5 years.
       <br />
       <br />
-      my first company, cwc, analyzed crypto exchanges and was later sold. free
-      time led me to various hackathons, where i met my co-founder. together, we
-      founded openq, partnering with top hackathon organizers and distributing
-      the largest prize pool in hackathon history.
+      my first company, cwc, analyzed crypto exchanges. i sold that company two
+      years later. free time and freelance gigs as dev rel (my biggest passion)
+      led me to various hackathons, where i met my co-founder. together, we
+      founded{" "}
+      <Link className="underline" href={"https://openq.dev/"}>
+        openq
+      </Link>
+      , partnering with top hackathon organizers and distributing the largest
+      prize pool in hackathon history, fully on-chain. <br />
+      <br />
+      today i'm mainly focusing on developer relations with our new{" "}
+      <Link className="underline" href={"https://openq.dev/drm"}>
+        drm
+      </Link>{" "}
+      product and in my free time i play around with ai like everyone else.
       {/* {posts.map((post, idx) => (
         <PostCard key={idx} {...post} />
       ))} */}
