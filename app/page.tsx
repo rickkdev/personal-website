@@ -62,12 +62,15 @@ export default function Home() {
         />
       </div>
       <br />
-      by 15, i freelanced in web development and 3d animation. working for a 3d
-      studio full-time for a year shifted my focus from animation to coding
-      again. <br />
-      <br />i studied cs at the technical university of berlin, though much of
-      my knowledge is self-taught. for over a decade, i've been deep into crypto
-      and web3, professionally focusing on blockchain for the last 5 years.
+      by 15, i freelanced in web development and 3d animation. after a year at a
+      3d studio, i realized my passion leaned more towards coding than
+      animation.
+      <br />
+      <br />
+      thanks to that experience i studied cs at the technical university of
+      berlin, though much of my knowledge is self-taught. for over a decade,
+      i've been deep into crypto and web3, professionally focusing on blockchain
+      for the last 5 years.
       <br />
       <br />
       my first company, cwc, analyzed crypto exchanges. i sold that company two

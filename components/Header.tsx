@@ -40,7 +40,7 @@ function Content() {
             <div>
               <Image src="/x-logo.png" width={12} height={12} alt="X" />
             </div>
-            <div className="text-xs font-semibold">follow me</div>
+            <div className="text-xs font-semibold font-sans">follow me</div>
           </div>
         </Link>
       </div>
